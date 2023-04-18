@@ -1,0 +1,154 @@
+{
+	id: "598E0BC7ED062C18"
+	group: "1687EA423FF7D824"
+	order_index: 1
+	filename: "cataclysm"
+	title: "灾变"
+	icon: "cataclysm:witherite_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "末影守卫"
+			icon: "cataclysm:ender_guardian_spawn_egg"
+			x: 0.0d
+			y: 0.0d
+			id: "3F421CD759CC403A"
+			tasks: [{
+				id: "7ADF8E9807845F5B"
+				type: "kill"
+				entity: "cataclysm:ender_guardian"
+				value: 1L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["3F421CD759CC403A"]
+			id: "14DE50A0DC7829E4"
+			tasks: [{
+				id: "46A4AD83640A6C5F"
+				type: "item"
+				item: "cataclysm:gauntlet_of_guard"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["3F421CD759CC403A"]
+			id: "247E5159E6C710E1"
+			tasks: [{
+				id: "3DD44A6800F3C6E9"
+				type: "item"
+				item: "cataclysm:music_disc_ender_guardian"
+			}]
+		}
+		{
+			title: "焰魔"
+			icon: "cataclysm:ignis_spawn_egg"
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["69046216B21A6E3F"]
+			id: "1A88E9FAD9565C5F"
+			tasks: [{
+				id: "763FBA87C1223450"
+				type: "kill"
+				entity: "cataclysm:ignis"
+				value: 1L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			dependencies: ["45FEFEA7F64283D2"]
+			id: "69046216B21A6E3F"
+			tasks: [{
+				id: "0D90865947A683DA"
+				type: "item"
+				item: "cataclysm:burning_ashes"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			dependencies: ["1A88E9FAD9565C5F"]
+			id: "34FAEC57816640D0"
+			tasks: [{
+				id: "05F6D4E9088C50B6"
+				type: "item"
+				item: "cataclysm:ignitium_ingot"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			dependencies: ["1A88E9FAD9565C5F"]
+			id: "072253F3C46940F1"
+			tasks: [{
+				id: "7D106CB35EF134C0"
+				type: "item"
+				item: "cataclysm:music_disc_ignis"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.0d
+			id: "45FEFEA7F64283D2"
+			tasks: [{
+				id: "059B43B23EDE68A8"
+				type: "kill"
+				title: "杀击燃魂"
+				icon: "cataclysm:ignited_revenant_spawn_egg"
+				entity: "cataclysm:ignited_revenant"
+				value: 1L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.0d
+			id: "661A437BB2FB84ED"
+			tasks: [{
+				id: "5EC9B15D0CF16B1A"
+				type: "kill"
+				title: "击杀先驱者"
+				icon: "cataclysm:the_harbinger_spawn_egg"
+				entity: "cataclysm:the_harbinger"
+				value: 1L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.5d
+			dependencies: ["661A437BB2FB84ED"]
+			id: "2017ACFEA33712A2"
+			tasks: [{
+				id: "4F115B759527F015"
+				type: "item"
+				item: "cataclysm:witherite_block"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.5d
+			dependencies: ["661A437BB2FB84ED"]
+			id: "696DEB0EFBFC0520"
+			tasks: [{
+				id: "50B3737686076A18"
+				type: "item"
+				item: "cataclysm:music_disc_the_harbinger"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.5d
+			dependencies: ["661A437BB2FB84ED"]
+			id: "0E6B13F09DEE45B4"
+			tasks: [{
+				id: "2EDC0AE05B8DAC0D"
+				type: "item"
+				item: "cataclysm:wither_assault_shoulder_weapon"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

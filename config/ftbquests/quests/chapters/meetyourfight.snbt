@@ -1,0 +1,239 @@
+{
+	id: "6091EA5467519DDF"
+	group: "1687EA423FF7D824"
+	order_index: 8
+	filename: "meetyourfight"
+	title: "迎战"
+	icon: "meetyourfight:haunted_bell"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.5d
+			y: 0.0d
+			description: [
+				"使用恶魔赌注召唤，有300点生命值,5点护甲值，会飞行。"
+				""
+				"攻击模式："
+				""
+				"释放一片红色小方块大范围攻击。"
+				""
+				"逐个释放红色小方块追击玩家。"
+				""
+				"逐个召唤尖牙追击玩家。"
+				""
+				"召唤一排尖牙攻击.（血量小于50%后）"
+			]
+			id: "317FB20E774C287E"
+			tasks: [{
+				id: "0D52549CA9C46CA9"
+				type: "item"
+				item: "meetyourfight:devils_ante"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			id: "7DE3C5E0F070BDB8"
+			tasks: [{
+				id: "414B91BB5A6EC461"
+				type: "item"
+				item: "meetyourfight:fossil_bait"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: [
+				"使用缠魂铃铛召唤。拥有200点生命值。"
+				"敲钟人漂浮在地面上方并且可以穿过墙壁，类似于恼鬼。"
+				"当瞄准玩家时，它会尝试不断地保持在玩家前方和上方几个方块的位置。它会射击一波波弹丸，这些弹丸在短暂加速后沿直线行进。每个射弹在接触到玩家时造成8点伤害,并且这些射弹也可以穿过墙壁         "
+				"敲钟人在战斗中随机交替进行以下两次攻击：            "
+				"发射3颗弹丸,在地面上形成一条直线，朝着目标前进。"
+				""
+				"发射3颗弹丸，在目标上方形成一个正方形再进行攻击。"
+				""
+				"在血量低于50%后，它会敲响铃铛，对附近的所有实体施加15秒的缓慢II，然后在地面快速发射20行射弹，射向其当前目标。此次攻击结束后，敲钟人会恢复正常攻击，但在接下来的战斗中，它会发射4颗弹丸而不是3颗。"
+			]
+			id: "2044D4A50D18A91F"
+			tasks: [{
+				id: "1F290FAC324DDA87"
+				type: "item"
+				item: "meetyourfight:haunted_bell"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.5d
+			id: "11736B80D81BEB29"
+			tasks: [{
+				id: "6C742A7956E30851"
+				type: "item"
+				item: "meetyourfight:mossy_tooth"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			id: "373DE6912EC4712C"
+			tasks: [{
+				id: "28E2F63BB726D414"
+				type: "item"
+				item: "meetyourfight:fortunes_favor"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			id: "413003FB97770C3A"
+			tasks: [{
+				id: "346FFDB55A7411F3"
+				type: "item"
+				item: "meetyourfight:phantoplasm"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			id: "1BCD2F8A3FB63786"
+			tasks: [{
+				id: "7382399701C4D891"
+				type: "item"
+				item: "meetyourfight:spectres_eye"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			id: "028D2C9F34D238EB"
+			tasks: [{
+				id: "7DC36C6FD00D1E3C"
+				type: "item"
+				item: "meetyourfight:passages_toll"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			id: "07B41C74576619BB"
+			tasks: [{
+				id: "7F141584E4D0C288"
+				type: "item"
+				item: "meetyourfight:aether_glazed_cupcake"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			id: "65BBB1663970C24C"
+			tasks: [{
+				id: "09FCB6DD9075D1CB"
+				type: "item"
+				item: "meetyourfight:music_disc_magnum"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			id: "7BB80AE6F3C54BCC"
+			tasks: [{
+				id: "56158B90D8E8B8F4"
+				type: "item"
+				item: "meetyourfight:spectres_grasp"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			id: "4E12BC982073EFFB"
+			tasks: [{
+				id: "676B2876D1763639"
+				type: "item"
+				item: "meetyourfight:ace_of_iron"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			id: "7BEF1BAB15C40FC2"
+			tasks: [{
+				id: "59181A652B8377CA"
+				type: "item"
+				item: {
+					id: "meetyourfight:cocktail_cutlass"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			id: "361F22B882360B84"
+			tasks: [{
+				id: "095CF40168A25465"
+				type: "item"
+				item: "meetyourfight:velvet_fortune"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			id: "41D7925043E497AA"
+			tasks: [{
+				id: "38A4485BBB015A57"
+				type: "item"
+				item: "meetyourfight:slicers_dice"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			id: "3795D5E0CF9C3109"
+			tasks: [{
+				id: "6E5D2ECFBE174427"
+				type: "item"
+				item: "meetyourfight:bone_raker"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.0d
+			id: "0543C09EFF911EBD"
+			tasks: [{
+				id: "47B263969A9C7958"
+				type: "item"
+				item: "meetyourfight:marshy_delight"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 2.0d
+			id: "3570CF3F7916D8FF"
+			tasks: [{
+				id: "3641326F8039E526"
+				type: "item"
+				item: "meetyourfight:caged_heart"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			id: "52EEBEBEAA8B27BB"
+			tasks: [{
+				id: "6E5E1C42A9C0E2C2"
+				type: "item"
+				item: {
+					id: "meetyourfight:depth_star"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,35 @@
+const common_bag = [
+    {
+        weight: 1,
+        count:2,
+        items: [
+            'carrot',
+            'melon_slice',
+            'pufferfish',
+            'cod',
+            'porkchop',
+            'egg',
+            'wheat',
+            'charscale_moki',
+            'horizofin_tunid',
+            'pine_fruit',
+            'grittle_flatfish',
+            'flying_fish',
+            'raw_catfish',
+            'blobfish',
+            'municipal_monkfish',
+            'scalefruit',
+            'honeycomb',
+            'banana',
+            'sweet_berries',
+            'beetroot',
+            'hoglin_loin',
+            'magebloom_crop',
+            'raw_gwibling',
+            'lobster_tail',
+            'honey_bottle',
+            'glow_berries',
+            'potato'
+    ]
+    },
+]

@@ -1,0 +1,177 @@
+{
+	id: "27300BFA4FCC4540"
+	group: "1687EA423FF7D824"
+	order_index: 3
+	filename: "the_bumblezone"
+	title: "蜜蜂领域"
+	icon: "the_bumblezone:essence_of_the_bees"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "480B6350E44B6720"
+			tasks: [{
+				id: "7AFDC7BE0CBCA2A3"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+		}
+		{
+			title: "蜜蜂领域"
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"进入的方法：朝着蜂巢投掷末影珍珠就会被传送进入蜜蜂领域。"
+				""
+				"离开的方法：向下挖，直到坐标y=0以下，或者向上爬到y=256以上，它会自动判断你想离开蜜蜂领域。"
+				""
+				"在这个维度中，蜜蜂们极力想要保护它们的蜂蜜"
+				""
+				"如果你在这个维度中进行以下任何一种行为："
+				"敲掉并捡起一个蜂蜜块"
+				"用玻璃瓶从“注满蜂蜜的多孔蜜脾方块”中采集蜂蜜"
+				"喝下一瓶蜂蜜"
+				"那么在你周围64格方块内的所有蜜蜂就会被激怒"
+				"这些蜜蜂将获得速度提升I、伤害吸收III和力量III的Buff"
+				"同时你会获得“蜂群之怒”的Buff，并且该维度中的雾气会变得更红"
+			]
+			dependencies: ["480B6350E44B6720"]
+			id: "04E3D14165CD3E82"
+			tasks: [{
+				id: "7FA3893B6DD9BF9F"
+				type: "dimension"
+				dimension: "the_bumblezone:the_bumblezone"
+			}]
+		}
+		{
+			icon: "the_bumblezone:honey_slime_spawn_egg"
+			x: -1.5d
+			y: 1.5d
+			description: ["在蜂蜜史莱姆上使用玻璃瓶会给你一个蜂蜜瓶，但会让蜂蜜史莱姆生气！随着时间的推移，它们会恢复蜂蜜状态，但可以通过让它们移动到蜂蜜、填充多孔蜂窝、粘性蜂蜜残留物、粘性蜂蜜红石或蜂窝育雏块上来加速"]
+			dependencies: ["04E3D14165CD3E82"]
+			id: "35B02BF2CB94A9B3"
+			tasks: [{
+				id: "0034F41BE551C33F"
+				type: "checkmark"
+				title: "蜜蜂史莱姆"
+			}]
+		}
+		{
+			title: "蜂兽"
+			icon: "the_bumblezone:beehemoth_spawn_egg"
+			x: -1.5d
+			y: 3.0d
+			description: [
+				"只有当你拿着蜂蜜桶物品时，他们才会跟着你"
+				""
+				"如果你喂它们，你最终可以驯服它们，戴上马鞍，骑它们！"
+				""
+				"你喂和骑它们的次数越多，他们获得的友谊就越多，这使它们移动得更快。当友谊终于达到极限时，蜂兽变成了蜂王，可以以最快的速度飞行！"
+				""
+				"但是，如果Beehemoth受到任何来源的伤害，友谊就会减少，如果他们失去了所有的友谊，他们会变得不开心，拒绝让你骑它，直到你可以再次提起友谊。:("
+				""
+				"达到女王身份需要1000点友谊点数。喂蜂蜜桶或蜜蜂面包得5分。蜂蜜命名项目给3分。任何其他喂蜂项目都给1分。骑着蜂兽移动一分钟在这段时间里会得到大约10分。蜂兽受到的每一点伤害也会降低友谊。如果玩家直接伤害蜂兽，友谊会减少三倍于所受到的伤害。"
+				""
+				"喂它们蜂王浆瓶将获得250点友谊点，蜂王浆桶将获得整整1000点！这两种方法都给蜂兽带来了非常强烈和长寿的精力充沛效果，水桶可以提供一个多小时的时间！"
+				""
+			]
+			dependencies: ["04E3D14165CD3E82"]
+			id: "4EA5A1D5085BE9CC"
+			tasks: [{
+				id: "62267099208FC148"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "蜜蜂女王"
+			icon: "the_bumblezone:bee_queen_spawn_egg"
+			x: 0.0d
+			y: 4.5d
+			description: [
+				"一只想要交易的巨大被动蜜蜂！拿着物品时右键点击或将物品放在蜂王面前进行交易。尝试交易各种物品，看看根据您给予的内容可以获得什么样的物品！说真的，您可以获得很多可能的物品列表，但只有在您交易某些物品时。"
+				""
+				"蜜蜂女王还会挑选一件可与之交易的物品，并在接下来的20分钟内告诉附近的任何玩家女王想要该物品（这是一个交易奖金系统）。如果玩家与女王交易该物品，他们将获得3倍的奖励和XP！他们最多可以这样做24次，直到女王满意并且奖金交易耗尽，直到20分钟用完。然后女王为奖金交易挑选一个新项目！（即使女王没有要求该物品，您仍可以随时与女王交易其他物品以获得正常数量的奖励！"
+				""
+				"第一次成功交易后，您将获得女王欲望晋级线，每完成一次晋级，即可获得蜂王浆瓶奖励。完成整个进阶线后，您将获得蜜蜂精华物品！"
+				""
+				"前进线完成后，访问蜜蜂女王并右键单击以重置该前进线以重试相同的奖励！这就像一个可重玩的任务！"
+				""
+				"如果您需要查看某些女王欲望进度的进度，请在聊天中运行以下命令（将x替换为自动完成中显示的任何内容）： \\bumblezone_read_self_data queen_desire_xxxxxxxx对于操作玩家，如果需要，您可以使用\\bumblezone_read_data命令查看其他玩家的女王愿望进度。"
+				""
+				"只能在王座柱结构中找到。您可以通过从细胞迷宫、战斗立方体或霍尼特尔结构中获得特殊的蜂蜜指南针来找到王座柱。这种蜂蜜罗盘会说它被锁定在最近的王座柱结构上。"
+			]
+			dependencies: [
+				"4EF41F334B75950E"
+				"04E3D14165CD3E82"
+			]
+			id: "0618DA215B8EE74F"
+			tasks: [{
+				id: "36EE91CC9A3458FD"
+				type: "checkmark"
+				title: "蜂后"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			description: ["用它找到蜜蜂女王"]
+			dependencies: ["04E3D14165CD3E82"]
+			id: "4EF41F334B75950E"
+			tasks: [{
+				id: "0546F1024CEF6B02"
+				type: "item"
+				item: {
+					id: "the_bumblezone:honey_compass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: [
+				"0618DA215B8EE74F"
+				"04E3D14165CD3E82"
+			]
+			id: "6D68DF7807DBC305"
+			tasks: [{
+				id: "2F0DDF6BCE636359"
+				type: "item"
+				item: "the_bumblezone:royal_jelly_bottle"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			dependencies: [
+				"04E3D14165CD3E82"
+				"6D68DF7807DBC305"
+			]
+			id: "7511ED7847F5F894"
+			tasks: [{
+				id: "3B818844869DD20F"
+				type: "item"
+				item: "the_bumblezone:royal_jelly_bucket"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			description: ["可以横着走的东西"]
+			dependencies: [
+				"7511ED7847F5F894"
+				"04E3D14165CD3E82"
+			]
+			id: "7EB3DD79944044C7"
+			tasks: [{
+				id: "3DF22467F9F8F203"
+				type: "item"
+				item: "the_bumblezone:essence_of_the_bees"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,72 @@
+{
+	id: "6BD88AA8A10A2D91"
+	group: "1687EA423FF7D824"
+	order_index: 6
+	filename: "blue_skies"
+	title: "蔚蓝浩空"
+	icon: "blue_skies:soul_fragment"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "发现守门人"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"自然刷新在守门人小屋结构中，每间小屋一个，不会再次刷新。"
+				""
+				"模组物品可以通过交易获得"
+			]
+			id: "6B6BB63F444992CE"
+			tasks: [{
+				id: "61E5757FC1693F42"
+				type: "item"
+				item: "blue_skies:blue_journal"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["用来打开传送门 "]
+			dependencies: ["6B6BB63F444992CE"]
+			id: "6AE9F90330D2414B"
+			tasks: [{
+				id: "2F997F445F9552D7"
+				type: "item"
+				item: {
+					id: "blue_skies:zeal_lighter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			description: ["像地狱门一样"]
+			dependencies: ["6AE9F90330D2414B"]
+			id: "232C89B4CABB22DF"
+			tasks: [{
+				id: "70CF9680B67589D8"
+				type: "item"
+				item: "blue_skies:turquoise_stonebrick"
+				count: 8L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["6AE9F90330D2414B"]
+			id: "505323D77478B989"
+			tasks: [{
+				id: "39AA5E96C6292DD4"
+				type: "item"
+				item: "blue_skies:lunar_stonebrick"
+				count: 8L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,9 @@
+To refresh this file, delete it and run /reload command again! Last updated: Apr 15, 2023, 5:08:38 PM
+
+#neapolitan:unaffected_by_vanilla_scent
+- supplementaries:overencumbered? (from supplementaries-1.19.2-2.3.4.jar)
+
+#supplementaries:unaffected_by_vanilla_scent
+- supplementaries:overencumbered? (from supplementaries-1.19.2-2.3.4.jar)
+
+#the_bumblezone:incense_candle/disallowed_effects

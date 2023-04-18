@@ -1,0 +1,116 @@
+To refresh this file, delete it and run /reload command again! Last updated: Apr 15, 2023, 5:08:38 PM
+
+#undergarden:virulent
+- undergarden:virulent_mix_source (from The_Undergarden-1.19.2-0.8.3.jar)
+- undergarden:virulent_mix_flowing (from The_Undergarden-1.19.2-0.8.3.jar)
+
+#forge:experience
+- sophisticatedcore:xp_still (from sophisticatedcore-1.19.2-0.5.49.245.jar)
+- reliquary:xp_juice_still (from reliquary-1.19.2-2.0.20.1166.jar)
+
+#minecraft:water
+- minecraft:water (from Default)
+- minecraft:flowing_water (from Default)
+- create_things_and_misc:slime (from create_misc_and_things_1.19.2_2.0.jar)
+- create_things_and_misc:flowing_slime (from create_misc_and_things_1.19.2_2.0.jar)
+- #the_bumblezone:sugar_water (from the_bumblezone_forge-6.7.9+1.19.2.jar)
+- shadowlands:oil (from Shadowlands 1.19.2 version 2.9.jar)
+- shadowlands:flowing_oil (from Shadowlands 1.19.2 version 2.9.jar)
+- create_central_kitchen:flowing_sap? (from create_central_kitchen-1.19.2-for-create-0.5.0.i-1.3.2.jar)
+- create_central_kitchen:sap? (from create_central_kitchen-1.19.2-for-create-0.5.0.i-1.3.2.jar)
+- create_central_kitchen:flowing_syrup? (from create_central_kitchen-1.19.2-for-create-0.5.0.i-1.3.2.jar)
+- create_central_kitchen:syrup? (from create_central_kitchen-1.19.2-for-create-0.5.0.i-1.3.2.jar)
+- create_central_kitchen:flowing_tomato_sauce? (from create_central_kitchen-1.19.2-for-create-0.5.0.i-1.3.2.jar)
+- create_central_kitchen:tomato_sauce? (from create_central_kitchen-1.19.2-for-create-0.5.0.i-1.3.2.jar)
+
+#forge:molten_bronze
+- createbigcannons:flowing_molten_bronze (from createbigcannons-1.19.2-beta-0.5.b.jar)
+- createbigcannons:molten_bronze (from createbigcannons-1.19.2-beta-0.5.b.jar)
+
+#forge:milk
+- minecraft:milk? (from forge-1.19.2-43.2.8-universal.jar)
+- minecraft:flowing_milk? (from forge-1.19.2-43.2.8-universal.jar)
+
+#forge:tea
+- create:flowing_tea (from create-1.19.2-0.5.0.i.jar)
+- create:tea (from create-1.19.2-0.5.0.i.jar)
+
+#forge:molten_cast_iron
+- createbigcannons:flowing_molten_cast_iron (from createbigcannons-1.19.2-beta-0.5.b.jar)
+- createbigcannons:molten_cast_iron (from createbigcannons-1.19.2-beta-0.5.b.jar)
+
+#the_bumblezone:honey
+- the_bumblezone:honey_fluid_still (from the_bumblezone_forge-6.7.9+1.19.2.jar)
+- the_bumblezone:honey_fluid_flowing (from the_bumblezone_forge-6.7.9+1.19.2.jar)
+
+#forge:visual/honey
+- #the_bumblezone:honey (from the_bumblezone_forge-6.7.9+1.19.2.jar)
+- #the_bumblezone:royal_jelly (from the_bumblezone_forge-6.7.9+1.19.2.jar)
+- productivebees:honey? (from the_bumblezone_forge-6.7.9+1.19.2.jar)
+- productivebees:flowing_honey? (from the_bumblezone_forge-6.7.9+1.19.2.jar)
+
+#the_bumblezone:special_honey_like
+- #the_bumblezone:honey (from the_bumblezone_forge-6.7.9+1.19.2.jar)
+- #the_bumblezone:royal_jelly (from the_bumblezone_forge-6.7.9+1.19.2.jar)
+
+#forge:molten_steel
+- createbigcannons:flowing_molten_steel (from createbigcannons-1.19.2-beta-0.5.b.jar)
+- createbigcannons:molten_steel (from createbigcannons-1.19.2-beta-0.5.b.jar)
+
+#twilightforest:fire_jet_fuel
+- #minecraft:lava (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#minecraft:lava
+- minecraft:lava (from Default)
+- minecraft:flowing_lava (from Default)
+
+#the_bumblezone:sugar_water
+- the_bumblezone:sugar_water_still (from the_bumblezone_forge-6.7.9+1.19.2.jar)
+- the_bumblezone:sugar_water_flowing (from the_bumblezone_forge-6.7.9+1.19.2.jar)
+
+#the_bumblezone:royal_jelly
+- the_bumblezone:royal_jelly_fluid_still (from the_bumblezone_forge-6.7.9+1.19.2.jar)
+- the_bumblezone:royal_jelly_fluid_flowing (from the_bumblezone_forge-6.7.9+1.19.2.jar)
+
+#create_enchantment_industry:printer_input
+- create_enchantment_industry:flowing_experience (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.1.17.jar)
+- create_enchantment_industry:experience (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.1.17.jar)
+- #forge:ink (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.1.17.jar)
+
+#create:bottomless/deny
+
+#forge:visual/water
+- minecraft:water (from the_bumblezone_forge-6.7.9+1.19.2.jar)
+- minecraft:flowing_water (from the_bumblezone_forge-6.7.9+1.19.2.jar)
+- #the_bumblezone:sugar_water (from the_bumblezone_forge-6.7.9+1.19.2.jar)
+
+#create_enchantment_industry:blaze_enchanter_input
+- create_enchantment_industry:flowing_experience (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.1.17.jar)
+- create_enchantment_industry:experience (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.1.17.jar)
+- create_enchantment_industry:flowing_hyper_experience (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.1.17.jar)
+- create_enchantment_industry:hyper_experience (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.1.17.jar)
+
+#forge:chocolate
+- create:flowing_chocolate (from create-1.19.2-0.5.0.i.jar)
+- create:chocolate (from create-1.19.2-0.5.0.i.jar)
+
+#create:bottomless/allow
+- minecraft:water (from create-1.19.2-0.5.0.i.jar)
+- minecraft:lava (from create-1.19.2-0.5.0.i.jar)
+
+#forge:honey
+- #the_bumblezone:honey (from the_bumblezone_forge-6.7.9+1.19.2.jar)
+- #the_bumblezone:royal_jelly (from the_bumblezone_forge-6.7.9+1.19.2.jar)
+- inspirations:honey? (from the_bumblezone_forge-6.7.9+1.19.2.jar)
+- inspirations:flowing_honey? (from the_bumblezone_forge-6.7.9+1.19.2.jar)
+- create:flowing_honey (from create-1.19.2-0.5.0.i.jar)
+- create:honey (from create-1.19.2-0.5.0.i.jar)
+
+#the_bumblezone:convertible_to_sugar_water
+- minecraft:water (from the_bumblezone_forge-6.7.9+1.19.2.jar)
+- minecraft:flowing_water (from the_bumblezone_forge-6.7.9+1.19.2.jar)
+- #the_bumblezone:sugar_water (from the_bumblezone_forge-6.7.9+1.19.2.jar)
+
+#forge:ink
+- create_enchantment_industry:flowing_ink (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.1.17.jar)
+- create_enchantment_industry:ink (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.1.17.jar)

@@ -1,0 +1,92 @@
+{
+	id: "753AB649790D4EEB"
+	group: "1687EA423FF7D824"
+	order_index: 5
+	filename: "witherstormmod"
+	title: "凋灵风暴"
+	icon: "witherstormmod:withered_nether_star"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "witherstormmod:command_block_book"
+			x: 0.0d
+			y: 0.0d
+			description: ["召唤凋灵风暴所需的原材料都会自然生成在位于X=0，Z=0坐标处的遗迹小屋的天台上。这让在生存模式下的玩家也可以通过非作弊的方式召唤凋灵风暴"]
+			id: "053016B991B7C141"
+			tasks: [{
+				id: "7A001392E96CBC01"
+				type: "checkmark"
+				title: "凋零风暴"
+			}]
+		}
+		{
+			icon: "witherstormmod:withered_symbiont_spawn_egg"
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["053016B991B7C141"]
+			id: "0B19A4409CDDC9AB"
+			tasks: [{
+				id: "1CDD117E67AD79BC"
+				type: "kill"
+				entity: "witherstormmod:withered_symbiont"
+				value: 1L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["0B19A4409CDDC9AB"]
+			id: "4CD88A6DDA5B4347"
+			tasks: [{
+				id: "2AD0DD2B827019BD"
+				type: "item"
+				item: "witherstormmod:command_block_book"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["4CD88A6DDA5B4347"]
+			id: "290C2C0C2A7E3D70"
+			tasks: [{
+				id: "7B66CFBBC9EA2562"
+				type: "item"
+				item: "witherstormmod:super_tnt"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			description: ["令之剑是经过指令附魔书强化附魔的钻石剑，拥有可以摧毁命令方块的强大力量"]
+			dependencies: ["4CD88A6DDA5B4347"]
+			id: "2440055BB0DB49D9"
+			tasks: [{
+				id: "248513C446D3D857"
+				type: "item"
+				item: "witherstormmod:command_block_sword"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			description: [
+				"这是一种蕴含强大能量的，可以轻易摧毁任何东西的顶级炸弹。由于能量过于强大，恐怖炸弹极其不稳定：当它被合成的那一刻，它就会被引燃。如果合成出来后600秒（10分钟）内未使用，那么它将直接在玩家的物品栏中爆炸，造成无比严重的后果。"
+				""
+				"实际上，它的主要作用是摧毁凋灵风暴。当凋灵风暴生长到极限后，命令方块内部的能量已经过载。此时玩家需将引燃中的恐怖炸弹放置在凋灵风暴附近并快速远离现场，一旦发现这股强大的能量，凋灵风暴就会试图用牵引光束牵引起引燃中的恐怖炸弹。"
+			]
+			dependencies: ["290C2C0C2A7E3D70"]
+			id: "0ECC3F2BE82EB27E"
+			tasks: [{
+				id: "1D479B6C7D6AE5B1"
+				type: "item"
+				item: {
+					id: "witherstormmod:formidibomb"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,7 @@
+
+["~ Client Config for Metal Barrels Mod ~"]
+	# You can choose whether you want the crystal barrel to render the items in the barrel or not.
+	"Show Crystal Barrel Items Render" = true
+	# This adds a few particles to be rendered on the barrel to make them look cool.
+	"Show Barrel Particles" = false
+

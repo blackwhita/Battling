@@ -1,0 +1,328 @@
+{
+	id: "21C36DD47827362D"
+	group: "1687EA423FF7D824"
+	order_index: 7
+	filename: "shadowlands"
+	title: "暗影之地"
+	icon: "shadowlands:averite_orb"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "辉光森林"
+			icon: "shadowlands:glowing_shroom"
+			x: 6.5d
+			y: 3.0d
+			description: [
+				"Glowshroom森林到处都是发光的蘑菇，但要小心 - 其中一些可以移动"
+				""
+				"根本不欢迎外人"
+				""
+				"次元还有奇怪的刺痛水母和孢子矿（灵感来自战锤 40k）孢子"
+				""
+				"地雷看起来无害，但如果你靠近它们，就会毫无征兆地爆炸。"
+				""
+				"要进入辉光森林，您需要右键单击穿着完整虚空旅行者盔甲的末日之星"
+				""
+				"传送门的建造与其他传送门一样，但使用暗黑石，并用发光石点燃"
+			]
+			dependencies: ["066637B6C6EC2227"]
+			id: "08479A6E30E07290"
+			tasks: [{
+				id: "6CB1B05206760BFB"
+				type: "dimension"
+				dimension: "shadowlands:glowshroom_caves"
+			}]
+		}
+		{
+			title: "被遗忘的沙漠"
+			icon: "shadowlands:desert_zombie_spawn_egg"
+			x: 5.0d
+			y: 3.0d
+			dependencies: ["4C1A90D077A71B9D"]
+			id: "4D4E588CDFD57EE8"
+			tasks: [{
+				id: "00566C36EB5C6C0A"
+				type: "dimension"
+				dimension: "shadowlands:forgotten_desert_dimension"
+			}]
+		}
+		{
+			title: "Vellium"
+			icon: "shadowlands:cloud"
+			x: 8.0d
+			y: 3.0d
+			description: [
+				"Vellium维度是一个阳光明媚的快乐地方 - 但不要被愚弄 - 奇怪的黄色独眼"
+				""
+				"栖息在其中的野兽是致命的，如果你不小心，你可能会无可救药地迷失在蓬松的云层低洼田野中。"
+				""
+				"要进入Vellium，你必须用云顶石建造一个传送门，并用云顶之地传送门点火器点燃它。"
+				""
+				"这两种物质都可以在暗影之地的塔中找到。"
+				""
+				"在Vellium有2个主要的生物群落，一个有云，另一个有金色的大山丘和粉红色的树木。"
+			]
+			dependencies: ["6ECAD8534A7C4F77"]
+			id: "1477F4B9B3B080F8"
+			tasks: [{
+				id: "711A4B1E002C16F8"
+				type: "dimension"
+				dimension: "shadowlands:vellium"
+			}]
+		}
+		{
+			title: "嗜血次元"
+			icon: "shadowlands:blood_altar"
+			x: 3.5d
+			y: 4.5d
+			dependencies: ["6FCFA602B22D6BCE"]
+			id: "5C41D527E034CB1E"
+			tasks: [{
+				id: "693361D07BF087D4"
+				type: "dimension"
+				dimension: "shadowlands:thebloodbath"
+			}]
+		}
+		{
+			title: "暗影之地"
+			icon: "shadowlands:shadow_log"
+			x: 8.0d
+			y: 0.0d
+			description: [
+				"暗影之地维度是一个黑暗的阴影维度，有灰色的树木和黑色的石头地牢偶尔有红色仙人掌林，红色森林，金属森林和蓝色森林，树木特别高大。"
+				""
+				"要到达暗影之地，您首先需要杀死掉落暗影球的觉醒之星"
+				""
+				"你现在必须用暗影石建造一个传送门框架，它也是从觉醒星上掉下来的"
+				""
+				"要点燃传送门，请右键单击带有阴影球的框架"
+			]
+			dependencies: ["263A40469F39D731"]
+			id: "1E23809E17F4D0F1"
+			tasks: [{
+				id: "0EBAB15D4DA95442"
+				type: "dimension"
+				dimension: "shadowlands:shadowbraxis"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.5d
+			description: ["在矿洞中发现发光水晶矿石，并用TNT产生的爆炸去破坏它得到"]
+			id: "3E34681BDD5E00AA"
+			tasks: [{
+				id: "7AA5757DCB954284"
+				type: "item"
+				item: "shadowlands:glowing_crystal"
+			}]
+		}
+		{
+			title: "召唤仪式"
+			icon: "shadowlands:lightning_crystal"
+			x: 8.0d
+			y: -3.0d
+			dependencies: ["3E34681BDD5E00AA"]
+			id: "752546C27F5A5BDC"
+			tasks: [
+				{
+					id: "79DCCB848F5545A8"
+					type: "item"
+					item: "shadowlands:summoning_core"
+				}
+				{
+					id: "43391EA23807341A"
+					type: "item"
+					item: "shadowlands:lightning_crystal"
+					count: 2L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			description: ["杀死枯萎骷髅指挥官"]
+			dependencies: ["752546C27F5A5BDC"]
+			id: "263A40469F39D731"
+			tasks: [{
+				id: "567AB84BB4B5DE2D"
+				type: "item"
+				item: {
+					id: "shadowlands:shadowbraxis"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "shadowlands:vellium"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 8.0d
+			y: 1.5d
+			dependencies: ["1E23809E17F4D0F1"]
+			id: "6ECAD8534A7C4F77"
+			tasks: [
+				{
+					id: "17A687A2D0568617"
+					type: "item"
+					item: "shadowlands:yellow_stone"
+					count: 8L
+				}
+				{
+					id: "500BE76230E49879"
+					type: "item"
+					item: {
+						id: "shadowlands:vellium"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 1.5d
+			description: ["可以在暗影之地发现它"]
+			dependencies: ["1E23809E17F4D0F1"]
+			id: "6B5C9BEF03249ACD"
+			tasks: [{
+				id: "2679E48BE6499896"
+				type: "item"
+				item: "shadowlands:void_orb"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			description: [
+				"在暗影之地会生成一个竞技场，去用虚空之球右键灾厄之星祭坛召唤灾厄之星并打败它"
+				""
+				"他可以被用来打开虚空之门"
+			]
+			dependencies: ["6B5C9BEF03249ACD"]
+			id: "6EAF6B7216EEF8EC"
+			tasks: [{
+				id: "5625AB38AA2822BD"
+				type: "item"
+				item: "shadowlands:void_key"
+			}]
+		}
+		{
+			icon: {
+				id: "shadowlands:glowshroom_caves"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 6.5d
+			y: 1.5d
+			description: ["用蘑菇石围城下届传送门的形状，用点火石右键它"]
+			dependencies: ["1E23809E17F4D0F1"]
+			id: "066637B6C6EC2227"
+			tasks: [
+				{
+					id: "4874951216BAA061"
+					type: "item"
+					item: "shadowlands:darkshroom_stone"
+					count: 8L
+				}
+				{
+					id: "3DC75FD17DB87559"
+					type: "item"
+					item: {
+						id: "shadowlands:glowshroom_caves"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			description: ["用砂岩围成下届传送门的形状，用金币右键它"]
+			dependencies: ["1E23809E17F4D0F1"]
+			id: "4C1A90D077A71B9D"
+			tasks: [
+				{
+					id: "7AA08AA0AF39F55A"
+					type: "item"
+					item: {
+						id: "shadowlands:forgotten_desert_dimension"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "45B38F87F9BEF0F3"
+					type: "item"
+					item: "minecraft:sandstone"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["1E23809E17F4D0F1"]
+			id: "0CBB5C133AF1D124"
+			tasks: [{
+				id: "78A74B8D47617A49"
+				type: "item"
+				item: "shadowlands:demonic_orb"
+			}]
+		}
+		{
+			icon: {
+				id: "shadowlands:thebloodbath"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.5d
+			y: 3.0d
+			description: [
+				"用恶魔之球右键血之祭坛召唤红骑士，打败他获得钥匙"
+				""
+				"用红色下届砖围成传送门形状，用钥匙右键它"
+			]
+			dependencies: ["0CBB5C133AF1D124"]
+			id: "6FCFA602B22D6BCE"
+			tasks: [
+				{
+					id: "3E26F8122586C6C4"
+					type: "item"
+					item: {
+						id: "shadowlands:thebloodbath"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "50FF0B2A2236020E"
+					type: "item"
+					item: "minecraft:red_nether_bricks"
+					count: 8L
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

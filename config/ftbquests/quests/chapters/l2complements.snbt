@@ -1,0 +1,216 @@
+{
+	id: "36AE91639C682E6A"
+	group: "1687EA423FF7D824"
+	order_index: 0
+	filename: "l2complements"
+	title: "莱特兰"
+	icon: "l2complements:resonant_feather"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"用火或者岩浆焚烧肉类或不死图腾时概率掉落。"
+				"不死图腾:1/64概率。"
+				"肉类:1/15552概率。"
+			]
+			id: "4D8E9927B245B518"
+			tasks: [{
+				id: "18C9891BAF0C9593"
+				type: "item"
+				item: "l2complements:life_essence"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			description: [
+				"用火或岩浆焚烧指定物品时概率掉落。"
+				"下界之星:1/64概率。"
+				"腐肉:1/15552概率。"
+				"恶魂之泪:1/576概率。"
+				"灵魂沙/土:1/27648概率。"
+			]
+			id: "32420FA351A9BE6D"
+			tasks: [{
+				id: "10D574D1BB24DEC9"
+				type: "item"
+				item: "l2complements:cursed_droplet"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			description: ["用火或者岩浆焚烧绿宝石或绿宝石块时概率掉落。绿宝石:1/15552概率。绿宝石块:1/1728概率。"]
+			id: "6585F7D9CE586B99"
+			tasks: [{
+				id: "2697E9CCC49F79CC"
+				type: "item"
+				item: "l2complements:heirophant_green"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			id: "6EA9374B509627B5"
+			tasks: [{
+				id: "7ECA764948112AD0"
+				type: "item"
+				item: "l2complements:space_shard"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			id: "30F03CF27FC38944"
+			tasks: [{
+				id: "7D80CB516282CAA0"
+				type: "item"
+				item: "l2complements:force_field"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.5d
+			id: "13F24B31E345A6A0"
+			tasks: [{
+				id: "2F092D9030634F09"
+				type: "item"
+				item: "l2complements:warden_bone_shard"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			id: "45746F9E30975A36"
+			tasks: [{
+				id: "16F509B2088A1E4E"
+				type: "item"
+				item: "l2complements:hard_ice"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			id: "3D7982EB10B580B4"
+			tasks: [{
+				id: "4B97762FF7C739AB"
+				type: "item"
+				item: "l2complements:resonant_feather"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			id: "7D29E54B73B69580"
+			tasks: [{
+				id: "6D0DCAAA76A5F0A6"
+				type: "item"
+				item: "l2complements:storm_core"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			id: "2EEDB9D32F2AB85A"
+			tasks: [{
+				id: "434A8C31749D02F1"
+				type: "item"
+				item: "l2complements:sun_membrane"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			id: "2146F0F9CDA0B6F4"
+			tasks: [{
+				id: "4DDF8300831F7A25"
+				type: "item"
+				item: "l2complements:soul_flame"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			id: "721FA1B9C87A8D21"
+			tasks: [{
+				id: "1CFB043CC304A742"
+				type: "item"
+				item: "l2complements:explosion_shard"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			id: "6302F0FA9AFB7972"
+			tasks: [{
+				id: "4A90AD272B2B8316"
+				type: "item"
+				item: "l2complements:blackstone_core"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			id: "4038932EDF8F1CDD"
+			tasks: [{
+				id: "2E307674B15F348C"
+				type: "item"
+				item: "l2complements:guardian_eye"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			id: "00B0354EF8CDD245"
+			tasks: [{
+				id: "7925A5A4CC397D0F"
+				type: "item"
+				item: "l2complements:void_eye"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			id: "7AEC760A2942A2BB"
+			tasks: [{
+				id: "4DE148DA7672EA50"
+				type: "item"
+				item: "l2complements:captured_wind"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.5d
+			id: "6C9FC19121CCE6E6"
+			tasks: [{
+				id: "23E08CFF380A365F"
+				type: "item"
+				item: "l2complements:captured_shulker_bullet"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			id: "74365571EAAE15F0"
+			tasks: [{
+				id: "5D1E69CAF923837D"
+				type: "item"
+				item: "l2complements:enchanted_totemic_carrot"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			id: "16CB1988C3E7A38D"
+			tasks: [{
+				id: "41365F9B80D7FD83"
+				type: "item"
+				item: "l2complements:enchanted_totemic_apple"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

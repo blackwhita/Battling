@@ -1,0 +1,22 @@
+
+[options]
+	#The maximum number of blocks from the crosshair to a player to show the name tag
+	#Range: 0 ~ 16
+	selection_radius = 0
+	#The maximum distance to render player name tags for other teams
+	#Range: 0 ~ 128
+	show_nametag_distance = 128
+	#The maximum distance to render player name tags for the same team
+	#Range: 0 ~ 256
+	show_teammate_distance = 128
+	#When true, players can only see name tags for other teams when there are no blocks in the way
+	require_line_of_sight = true
+	#When true, looking directly at an invisible player shows their name tag
+	show_invisible_players = true
+	#When true, the team name is shown beside the player's nametag
+	show_team_name = true
+	#When true, the nametag color bar is hidden when the player is sneaking
+	hide_on_sneak = true
+	#When true, the nametag is rendered for the player in their inventory and third person.
+	render_for_self = true
+

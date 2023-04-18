@@ -1,0 +1,211 @@
+{
+	id: "01877707F2AD5683"
+	group: "1687EA423FF7D824"
+	order_index: 4
+	filename: "undergarden"
+	title: "深暗之园"
+	icon: "undergarden:catalyst"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "undergarden:catalyst"
+			x: 0.0d
+			y: 1.5d
+			id: "0EEE1A9718C64369"
+			tasks: [
+				{
+					id: "181363D22068C90E"
+					type: "dimension"
+					dimension: "undergarden:undergarden"
+				}
+				{
+					id: "06BFCCEDDDB1F6EC"
+					type: "item"
+					item: "undergarden:catalyst"
+				}
+				{
+					id: "59EC9EC6F0366682"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["0EEE1A9718C64369"]
+			id: "6F5445E611D64710"
+			tasks: [{
+				id: "5FCE5F33692A8234"
+				type: "item"
+				item: "undergarden:raw_cloggrum"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			dependencies: ["0EEE1A9718C64369"]
+			id: "1AB3F9DA8851EB74"
+			tasks: [{
+				id: "010121DC1EDD7A5F"
+				type: "item"
+				item: "undergarden:raw_froststeel"
+			}]
+		}
+		{
+			icon: "undergarden:forgotten_guardian_spawn_egg"
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["0EEE1A9718C64369"]
+			id: "65E368299847FF68"
+			tasks: [{
+				id: "004B46B95984D644"
+				type: "kill"
+				entity: "undergarden:forgotten_guardian"
+				value: 1L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["65E368299847FF68"]
+			id: "5BABA4F29C526990"
+			tasks: [{
+				id: "625B92FC963B0170"
+				type: "item"
+				item: "undergarden:forgotten_ingot"
+			}]
+		}
+		{
+			icon: "undergarden:masticator_spawn_egg"
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["0EEE1A9718C64369"]
+			id: "1BBE8FE329AC768A"
+			tasks: [{
+				id: "542B4AF539A2AFBF"
+				type: "kill"
+				entity: "undergarden:masticator"
+				value: 1L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			dependencies: ["1BBE8FE329AC768A"]
+			id: "0413B615DCADB3AA"
+			tasks: [{
+				id: "46099963D89FCEA4"
+				type: "item"
+				item: "undergarden:masticator_scales"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["5BABA4F29C526990"]
+			id: "6EF4E83A4909205D"
+			tasks: [{
+				id: "676DE01C44D4BD8F"
+				type: "item"
+				item: {
+					id: "undergarden:forgotten_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			dependencies: ["0413B615DCADB3AA"]
+			id: "60606C0FF130E89F"
+			tasks: [{
+				id: "2AE8E36DA6F4D627"
+				type: "item"
+				item: {
+					id: "undergarden:masticated_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 5s
+							id: "minecraft:thorns"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.0d
+			dependencies: ["1AB3F9DA8851EB74"]
+			id: "44E1EA3748667C16"
+			tasks: [{
+				id: "2C5906248880A197"
+				type: "item"
+				item: "undergarden:froststeel_ingot"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["6F5445E611D64710"]
+			id: "12077706B654A693"
+			tasks: [{
+				id: "291488C95EE0FA65"
+				type: "item"
+				item: "undergarden:cloggrum_ingot"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["0EEE1A9718C64369"]
+			id: "23660DFD4D3A7BD8"
+			tasks: [{
+				id: "1EA8FEDE083C4E4F"
+				type: "item"
+				item: "undergarden:gloomgourd_seeds"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["0EEE1A9718C64369"]
+			id: "6597697B0B2BC913"
+			tasks: [{
+				id: "688EDC6FD6B53E70"
+				type: "item"
+				item: "undergarden:glitterkelp"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["0EEE1A9718C64369"]
+			id: "5AE1B13C27BE440D"
+			tasks: [{
+				id: "2E29AC4A8374840E"
+				type: "item"
+				item: "undergarden:blood_globule"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			dependencies: ["23660DFD4D3A7BD8"]
+			id: "5C3F2747DAE7778B"
+			tasks: [{
+				id: "391B70336ECD6517"
+				type: "item"
+				item: "undergarden:gloomgourd"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

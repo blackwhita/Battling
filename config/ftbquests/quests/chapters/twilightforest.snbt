@@ -1,0 +1,268 @@
+{
+	id: "7F60D361503A30F3"
+	group: "1687EA423FF7D824"
+	order_index: 2
+	filename: "twilightforest"
+	title: "暮色森林"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			x: 0.0d
+			y: 0.0d
+			description: ["欢迎来到暮色森林"]
+			id: "187EF75E7B98EFE7"
+			tasks: [{
+				id: "7D677B038946369C"
+				type: "checkmark"
+				title: "The Twilight Forest"
+			}]
+		}
+		{
+			icon: "minecraft:diamond"
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["187EF75E7B98EFE7"]
+			id: "1645FC5A7BB44F90"
+			tasks: [
+				{
+					id: "70A848E621B8DF58"
+					type: "item"
+					title: "Any #minecraft:flowers"
+					icon: "minecraft:azure_bluet"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:flowers"
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "2DDC8BDFD66C5833"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "3A7E36E40A575460"
+					type: "dimension"
+					dimension: "twilightforest:twilight_forest"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["1645FC5A7BB44F90"]
+			id: "266F68771AAAF3C8"
+			tasks: [{
+				id: "16F491233B8418A5"
+				type: "item"
+				item: "twilightforest:raven_feather"
+			}]
+		}
+		{
+			icon: "twilightforest:magic_map"
+			x: -3.0d
+			y: 1.5d
+			description: ["只要制作出魔法地图，这里所有的BOSS所在位置便能一览无余了"]
+			dependencies: ["266F68771AAAF3C8"]
+			id: "0CF8719CADC5E674"
+			tasks: [
+				{
+					id: "13F64013769849D8"
+					type: "item"
+					item: "twilightforest:magic_map_focus"
+				}
+				{
+					id: "6AC36EEF4E0292ED"
+					type: "item"
+					item: "twilightforest:magic_map"
+				}
+			]
+		}
+		{
+			icon: "twilightforest:naga_spawn_egg"
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["1645FC5A7BB44F90"]
+			id: "7D8CA96ACB1BD3B9"
+			tasks: [{
+				id: "503207DF6760A6D4"
+				type: "kill"
+				entity: "twilightforest:naga"
+				value: 1L
+			}]
+		}
+		{
+			icon: "twilightforest:lich_spawn_egg"
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["7D8CA96ACB1BD3B9"]
+			id: "32DA24E86F9A0C1C"
+			tasks: [{
+				id: "6701C42627F8E27A"
+				type: "kill"
+				entity: "twilightforest:lich"
+				value: 1L
+			}]
+		}
+		{
+			icon: "twilightforest:alpha_yeti_spawn_egg"
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["32DA24E86F9A0C1C"]
+			id: "35E7D1F7C24697CF"
+			tasks: [{
+				id: "3B580A9913E26D2D"
+				type: "kill"
+				entity: "twilightforest:alpha_yeti"
+				value: 1L
+			}]
+		}
+		{
+			icon: "twilightforest:snow_queen_trophy"
+			x: 0.0d
+			y: 7.5d
+			dependencies: ["35E7D1F7C24697CF"]
+			id: "32858C3223591034"
+			tasks: [
+				{
+					id: "76C71F20CC4ACCA0"
+					type: "kill"
+					entity: "twilightforest:snow_queen"
+					value: 1L
+				}
+				{
+					id: "61386E9F1D7826E0"
+					type: "item"
+					item: "twilightforest:snow_queen_trophy"
+				}
+			]
+		}
+		{
+			icon: "twilightforest:ur_ghast_trophy"
+			x: -1.5d
+			y: 6.0d
+			dependencies: ["32DA24E86F9A0C1C"]
+			id: "322F9D9528EDD6A1"
+			tasks: [
+				{
+					id: "6ADA0BAC0F1A4025"
+					type: "kill"
+					entity: "twilightforest:ur_ghast"
+					value: 1L
+				}
+				{
+					id: "77D6F5CC4F376DA5"
+					type: "item"
+					item: "twilightforest:ur_ghast_trophy"
+				}
+			]
+		}
+		{
+			icon: "twilightforest:minoshroom_trophy"
+			x: 1.5d
+			y: 6.0d
+			dependencies: ["32DA24E86F9A0C1C"]
+			id: "46C6BCB503064B34"
+			tasks: [
+				{
+					id: "2B41111F1B8CEF61"
+					type: "kill"
+					entity: "twilightforest:minoshroom"
+					value: 1L
+				}
+				{
+					id: "123B3642AE8E42C6"
+					type: "item"
+					item: "twilightforest:minoshroom_trophy"
+				}
+			]
+		}
+		{
+			icon: "twilightforest:hydra_trophy"
+			x: 1.5d
+			y: 7.5d
+			dependencies: ["46C6BCB503064B34"]
+			id: "3E394FC56B6A4324"
+			tasks: [
+				{
+					id: "757CCF6393FF6698"
+					type: "kill"
+					entity: "twilightforest:hydra"
+					value: 1L
+				}
+				{
+					id: "6EAEDCE1A70B9A7F"
+					type: "item"
+					item: "twilightforest:hydra_trophy"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["1645FC5A7BB44F90"]
+			id: "4BEA6C5773DD96D3"
+			tasks: [{
+				id: "75791F932755EA77"
+				type: "item"
+				item: "twilightforest:magic_beans"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			dependencies: ["4BEA6C5773DD96D3"]
+			id: "0642859D7B5C2227"
+			tasks: [{
+				id: "2B6EE2693D733113"
+				type: "item"
+				item: {
+					id: "twilightforest:giant_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			dependencies: ["0642859D7B5C2227"]
+			id: "7EE2C39BD6A371D6"
+			tasks: [{
+				id: "15439A968FAE68EE"
+				type: "item"
+				item: {
+					id: "twilightforest:lamp_of_cinders"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			dependencies: [
+				"7EE2C39BD6A371D6"
+				"3E394FC56B6A4324"
+			]
+			id: "23947489E8896F6E"
+			tasks: [{
+				id: "640EFBA20ADFC8B8"
+				type: "biome"
+				icon: "twilightforest:thorn_rose"
+				biome: "twilightforest:thornlands"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
